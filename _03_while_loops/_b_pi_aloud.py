@@ -14,12 +14,13 @@ if __name__ == '__main__':
     # TODO) Print out the first 3 digits of pi. For example,
     #  pi_str[0]   # first digit
     #  pi_str[1]   # second digit
-    print(pi[1], pi[2], pi[3])
+    print(pi[0], pi[1], pi[2], pi[3])
     # TODO) Use a while loop to keep asking for the next digit of pi
+
+
 
         # TODO) If they are correct, print "correct".
         #  If they are not, print "incorrect" and break out of the while loop
-
 
     # TODO) Print out how many digits of pi the user was able to recite
     #  in a row

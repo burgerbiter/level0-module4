@@ -37,7 +37,18 @@ if __name__ == '__main__':
     money_in_dollars = 3.00
 
     # TODO) Write a while loop that ends when you have no money left
-
+    while money_in_dollars >0:
+        spent = vending_machine(money_in_dollars)
+        if spent == 0:
+            print(money_in_dollars)
+            break
+        else:
+            money_in_dollars = money_in_dollars - spent
+            print("You have $" + str(money_in_dollars) + " left")
+        if money_in_dollars == 0:
+            print("Congratulations, you spent all your money!")
+        elif money_in_dollars < 0:
+            print("You overspent.")
         # TODO) Call the vending_machine() function and save the money spent
         #  in a variable, for example:
         #  money_spent = vending_machine(money_in_dollars)
